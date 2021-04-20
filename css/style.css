@@ -1,0 +1,118 @@
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+
+
+.bt-home,
+.bt-portfolio {
+    text-decoration: none;
+    color: red;
+    text-align: center;
+
+
+}
+
+
+.btn {
+    overflow: hidden;
+    background-color: ghostwhite;
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.6em;
+
+}
+
+
+
+
+
+
+.articleContainer {
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+img {
+    width: 300px;
+    
+}
+
+
+h1 {
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 0 4rem;
+    text-align: center;
+    font-size: 1.6em;
+    color: darken(palette(2), 10%);
+}
+
+
+h2 {
+    margin: 0 0 4rem;
+    text-align: center;
+    font-size: 1.6em;
+    color: darken(palette(2), 10%);
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+.smedia{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+.footer {
+    clear: both;
+    position: sticky;
+    bottom: 10px;
+    background-color: black;
+    color: white;
+    clear: both;
+    max-width: 1250px;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (min-width: 35rem) {
+    .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+}
+
+@media only screen and (min-width: 80rem){
+
+    .btn {
+        width: 30%;
+}
+}
